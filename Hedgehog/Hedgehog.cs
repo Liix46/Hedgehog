@@ -37,7 +37,7 @@ namespace Hedgehog
                         maxColorIndex = i;
                     }
 
-                    if (population[i] < minColor)
+                    if (population[i] <= minColor)
                     {
                         minColor = population[i];
                         minColorIndex = i;
